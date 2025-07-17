@@ -8,6 +8,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 body {
     min-height: 100vh;
     display: flex;
@@ -17,6 +19,7 @@ body {
     font-family: "Lato", sans-serif;
 
 }
+/* header */
 header {
     background-color: #FFFFFF;
     padding: 0 1rem;
@@ -80,14 +83,27 @@ nav {
     font-size: 2rem;
 }
 
+/* main */
 main {
     background-color: lightblue;
     /* main element grows to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
-footer {
-    background-color: orange
+
+/* footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a
 }
 
 /* media query: tablets and larger (768px and up) */
