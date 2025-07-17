@@ -84,6 +84,7 @@ main {
     background-color: lightblue;
     /* main element grows to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 footer {
     background-color: orange
