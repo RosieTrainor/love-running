@@ -38,15 +38,6 @@ h1 {
     color: #252525
 }
 
-main {
-    background-color: lightblue;
-    /* main element grows to push footer down */
-    flex: 1 0 auto;
-}
-footer {
-    background-color: orange
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -60,3 +51,24 @@ footer {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    display: none;
+}
+
+main {
+    background-color: lightblue;
+    /* main element grows to push footer down */
+    flex: 1 0 auto;
+}
+footer {
+    background-color: orange
+}
+
