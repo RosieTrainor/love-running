@@ -92,6 +92,29 @@ main {
     margin-top: 47px;
 }
 
+/* hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #FFFFFF;
+}
+
 /* reasons section */
 #reasons {
     margin: 20px auto;
@@ -135,27 +158,28 @@ main {
     align-items: center;
 }
 
-/* hero section */
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
-    position: relative;
+/*meet-up section */
+
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#cover-text {
-    background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+#times h3 {
+    /*override heading color */
+    color: #fafafa;
 }
-
-#cover-text > h2, #cover-text > h3 {
-    color: #FFFFFF;
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    /* stop wrapping on screens less than 400px, will expand to take up avaliable space */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* creates grid over image */
+    border: 2px solid white;
 }
 
 /* footer */
