@@ -244,16 +244,11 @@ main {
     #benefits {
         display: flex;
         flex-direction: row;
-
     }
     #benefits > div {
         flex: 1;
     }
 
-    /* #benefits-physical {
-        order:1;
-        align-self: flex-end;
-    } */
     #benefits-image {
         order: 0;
     }
