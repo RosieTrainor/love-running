@@ -186,6 +186,14 @@ main {
     border: 2px solid white;
 }
 
+/* gallery */
+#photos img {
+    width: 100%;
+}
+
+#photos {
+    line-height: 0;
+}
 /* footer */
 #social-networks {
     text-align: center;
